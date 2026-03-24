@@ -1,0 +1,24 @@
+/* seletor de elemento */
+p {
+  color: green;
+}
+
+/* seletor de classe */
+.classe-externa {
+  color: purple;
+}
+
+/* seletor de id */
+#titulo {
+  text-align: center;
+}
+
+/* seletor universal */
+* {
+  font-family: Arial;
+}
+
+/* seletor descendente */
+div p {
+  font-weight: bold;
+}
