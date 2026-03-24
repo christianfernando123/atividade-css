@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Atividade CSS</title>
+
+  <!-- CSS EXTERNO -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- CSS INTERNO -->
+  <style>
+    h2 {
+      color: blue;
+    }
+
+    .classe-interna {
+      background-color: lightgray;
+    }
+
+    #id-interno {
+      font-size: 20px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <h1 style="color: red;">CSS Inline</h1>
+
+  <h2>CSS Interno</h2>
+
+  <p class="classe-interna">Exemplo com classe (CSS interno)</p>
+
+  <p id="id-interno">Exemplo com ID (CSS interno)</p>
+
+  <div>
+    <p>Parágrafo dentro de div (seletor descendente)</p>
+  </div>
+
+</body>
+</html>
